@@ -166,7 +166,7 @@ const calcDisplaySummary = function ({ movements, interestRate }) {
 
 ////////////////////
 // takes the account in as an arg then shortens the username to just initials
-// ei: Andrew John Reddin = owner --> ajr = username;
+// ei: Andrew Reddin = owner --> ar = username;
 ////////////////////
 const createUserName = function (accounts) {
   accounts.forEach(function (account) {
